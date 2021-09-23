@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Industry'; src: url('fonts/Industry-Medium.ttf') format("truetype");
+}
+@font-face {
+    font-family: 'IndustryBold'; src: url('fonts/Industry-Bold.ttf') format("truetype");
+}
+.--text{
+  color:black;
+  font-family: Industry;
+  text-decoration: none;
+}
+
+.header{
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 50px;
+  font-size: 100px;
+
+}
+
+.subheader{
+  text-align: center;
+  font-size: 25px;
+  position: relative;
+  bottom: 30px;
+}
+
+.input{
+  display: block;
+  margin: auto;
+  width: 50%;
+  font-size: 30px;
+  border: 2px solid;
+
+}
+
+.input:focus{
+  outline: none;
+}
+.nav{
+   border: 2px solid;
+}
+.navbar{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   display: flex;
+   justify-content: space-between;
+}
+.--li{
+  display: inline;
+  float: left;
+  background-color: white;
+}
+
+.--a{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+  color: black;
+  font-size: 22px
+}
+
+.--image{
+  width: 60%;
+  height: 60%;
+  display: block;
+  margin: auto;
+}
+
+.element{
+  display: block;
+  margin: auto;
+  border: 2px solid black;
+  width: 60%;
+  height: 60%;
+}
+
+.textelement{
+  display: block;
+  font-size: 35px;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  text-decoration: underline;
+  color: black;
+}
+.desc{
+  display: block;
+  font-size: 17px;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.--link{
+  color: black;
+}
+.date{
+  display: block;
+  font-size: 15px;
+  text-align: center;
+}
+
+.--button{
+    width: 60px;
+    height: 60px;
+    border: 2px solid #202020;
+    text-align: center;
+    color: #00000;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 25px;
+    background: white;
+}
+.search{
+  display: flex;
+  position: relative;
+  margin-left: auto;
+}
